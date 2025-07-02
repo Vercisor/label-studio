@@ -100,7 +100,7 @@ def user_signup(request):
     )
 
 
-@enforce_csrf_checks
+
 def user_login(request):
     """Login page"""
     user = request.user
